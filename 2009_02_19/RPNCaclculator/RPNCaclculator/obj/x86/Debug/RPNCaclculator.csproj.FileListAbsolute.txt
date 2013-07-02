@@ -1,0 +1,4 @@
+C:\Projects\Praxxis\2009_02_19\RPNCaclculator\RPNCaclculator\bin\Debug\RPNCaclculator.exe
+C:\Projects\Praxxis\2009_02_19\RPNCaclculator\RPNCaclculator\bin\Debug\RPNCaclculator.pdb
+C:\Projects\Praxxis\2009_02_19\RPNCaclculator\RPNCaclculator\obj\x86\Debug\RPNCaclculator.exe
+C:\Projects\Praxxis\2009_02_19\RPNCaclculator\RPNCaclculator\obj\x86\Debug\RPNCaclculator.pdb
