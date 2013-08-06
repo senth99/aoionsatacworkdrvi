@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6fe299e9-70ba-49b8-9e87-27f994bd0a15" name="senthurans@M-SKALU-LT 2013-08-06 10:51:24" runUser="PRIVERUS\senthurans" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b29f986e-3e84-4d7d-8dfc-b37bec7f3afd">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="senthurans_M-SKALU-LT 2013-08-06 10_51_24">
+      <DeploymentItem filename="C:\Projects\MyLib\MyLib\bin\Debug\MyLib.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-08-06T10:51:24.0816620-04:00" queuing="2013-08-06T10:51:24.1440621-04:00" start="2013-08-06T10:51:24.1596622-04:00" finish="2013-08-06T10:51:24.5808629-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod2" storage="c:\projects\mylib\mytest\bin\debug\mytest.dll" id="cf18fab8-2927-0cd9-a589-2d8d10636953">
+      <Execution id="2cfd9423-c32b-42ac-9128-7cfcaf171696" />
+      <TestMethod codeBase="C:/Projects/MyLib/MyTest/bin/Debug/MyTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyTest.UnitTest1, MyTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="cf18fab8-2927-0cd9-a589-2d8d10636953" executionId="2cfd9423-c32b-42ac-9128-7cfcaf171696" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2cfd9423-c32b-42ac-9128-7cfcaf171696" testId="cf18fab8-2927-0cd9-a589-2d8d10636953" testName="TestMethod2" computerName="M-SKALU-LT" duration="00:00:00.0422615" startTime="2013-08-06T10:51:24.1596622-04:00" endTime="2013-08-06T10:51:24.5652629-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2cfd9423-c32b-42ac-9128-7cfcaf171696">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method MyTest.UnitTest1.TestMethod2 threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at MyLib.MyLinkedList`1.Pop() in C:\Projects\MyLib\MyLib\LinkedList.cs:line 43
+   at MyTest.UnitTest1.TestMethod2() in C:\Projects\MyLib\MyTest\UnitTest1.cs:line 35
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

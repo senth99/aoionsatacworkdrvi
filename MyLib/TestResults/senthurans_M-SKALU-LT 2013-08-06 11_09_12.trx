@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d1e9e7e9-1128-44fd-8116-463be5b6e067" name="senthurans@M-SKALU-LT 2013-08-06 11:09:12" runUser="PRIVERUS\senthurans" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b29f986e-3e84-4d7d-8dfc-b37bec7f3afd">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="senthurans_M-SKALU-LT 2013-08-06 11_09_12">
+      <DeploymentItem filename="C:\Projects\MyLib\MyLib\bin\Debug\MyLib.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-08-06T11:09:12.0720778-04:00" queuing="2013-08-06T11:09:13.3581514-04:00" start="2013-08-06T11:09:13.6241666-04:00" finish="2013-08-06T11:18:21.9465344-04:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="4" executed="4" passed="3" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="M-SKALU-LT" outcome="Error" timestamp="2013-08-06T11:18:21.9465344-04:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod3" storage="c:\projects\mylib\mytest\bin\debug\mytest.dll" id="099b3509-6376-6e80-75a4-d8a6f6161cef">
+      <Execution id="35dca2c6-7010-45be-8c1c-8f43b4cdd954" />
+      <TestMethod codeBase="C:/Projects/MyLib/MyTest/bin/Debug/MyTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyTest.UnitTest1, MyTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod3" />
+    </UnitTest>
+    <UnitTest name="TestMethod2" storage="c:\projects\mylib\mytest\bin\debug\mytest.dll" id="cf18fab8-2927-0cd9-a589-2d8d10636953">
+      <Execution id="642dae05-41de-4593-b7da-e7b06ff502c8" />
+      <TestMethod codeBase="C:/Projects/MyLib/MyTest/bin/Debug/MyTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyTest.UnitTest1, MyTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod2" />
+    </UnitTest>
+    <UnitTest name="TestMethod4" storage="c:\projects\mylib\mytest\bin\debug\mytest.dll" id="41dff518-b075-c5fb-0d1e-7ca601b6d56a">
+      <Execution id="eab39cdf-73b0-492f-a6ce-3b04df492b34" />
+      <TestMethod codeBase="C:/Projects/MyLib/MyTest/bin/Debug/MyTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyTest.UnitTest1, MyTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod4" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\projects\mylib\mytest\bin\debug\mytest.dll" id="a0f80cf8-aa0b-8e1b-9ac0-c4b01b30f2be">
+      <Execution id="7eb5293e-07f8-4dcc-9a6c-ceb61eaabebd" />
+      <TestMethod codeBase="C:/Projects/MyLib/MyTest/bin/Debug/MyTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyTest.UnitTest1, MyTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a0f80cf8-aa0b-8e1b-9ac0-c4b01b30f2be" executionId="7eb5293e-07f8-4dcc-9a6c-ceb61eaabebd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf18fab8-2927-0cd9-a589-2d8d10636953" executionId="642dae05-41de-4593-b7da-e7b06ff502c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="099b3509-6376-6e80-75a4-d8a6f6161cef" executionId="35dca2c6-7010-45be-8c1c-8f43b4cdd954" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41dff518-b075-c5fb-0d1e-7ca601b6d56a" executionId="eab39cdf-73b0-492f-a6ce-3b04df492b34" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7eb5293e-07f8-4dcc-9a6c-ceb61eaabebd" testId="a0f80cf8-aa0b-8e1b-9ac0-c4b01b30f2be" testName="TestMethod1" computerName="M-SKALU-LT" duration="00:00:00.0340224" startTime="2013-08-06T11:09:14.3042055-04:00" endTime="2013-08-06T11:09:15.7772897-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7eb5293e-07f8-4dcc-9a6c-ceb61eaabebd">
+    </UnitTestResult>
+    <UnitTestResult executionId="642dae05-41de-4593-b7da-e7b06ff502c8" testId="cf18fab8-2927-0cd9-a589-2d8d10636953" testName="TestMethod2" computerName="M-SKALU-LT" duration="00:01:10.9083071" startTime="2013-08-06T11:09:15.7872903-04:00" endTime="2013-08-06T11:10:26.9024895-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="642dae05-41de-4593-b7da-e7b06ff502c8">
+    </UnitTestResult>
+    <UnitTestResult executionId="35dca2c6-7010-45be-8c1c-8f43b4cdd954" testId="099b3509-6376-6e80-75a4-d8a6f6161cef" testName="TestMethod3" computerName="M-SKALU-LT" duration="00:00:02.4856361" startTime="2013-08-06T11:10:26.9180895-04:00" endTime="2013-08-06T11:10:29.4140939-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="35dca2c6-7010-45be-8c1c-8f43b4cdd954">
+    </UnitTestResult>
+    <UnitTestResult executionId="eab39cdf-73b0-492f-a6ce-3b04df492b34" testId="41dff518-b075-c5fb-0d1e-7ca601b6d56a" testName="TestMethod4" computerName="M-SKALU-LT" duration="00:07:52.5168405" startTime="2013-08-06T11:10:29.4296939-04:00" endTime="2013-08-06T11:18:21.9465344-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eab39cdf-73b0-492f-a6ce-3b04df492b34">
+    </UnitTestResult>
+  </Results>
+</TestRun>
